@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+        <record id="plato" model="Restaurante.plato">
+            <field name="name"> Ensalada </field>
+            <field name="description"> Lechuga, Cebolla, Tomate y Atún aliñado con aceite y vinagre</field>
+        </record>
+
+        <record id="plato2" model="Restaurante.plato">
+            <field name="name"> Arroz </field>
+            <field name="description"> Guiso de arroz con pollo </field>
+        </record>
+    </data>
+</odoo>

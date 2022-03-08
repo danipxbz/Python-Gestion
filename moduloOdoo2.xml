@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record>
+        <field name="name">Platos</field>
+        <field name="res_model">Restaurante.plato</field>
+        <field name="view_mode">tree.form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Crear el primer plato</p>
+        </field>
+    </record>
+
+    <menuitem id="main_Restaurante_menu" name="Restaurante"/>
+    <menuitem id="Restaurante_menu" name="Restaurante" parent="main_Restaurante_menu"/>
+    <menuitem id="platos_menu" name="Platos" parent="Restaurante_menu" action?"plato_list_action"/>
+
+</odoo>
